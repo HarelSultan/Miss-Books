@@ -1,0 +1,26 @@
+.book-filter {
+    background: rgba(211, 211, 211, 0.603);
+    background: rgb(221, 238, 238);
+    padding: .7em 1em;
+    text-align: center;
+
+}
+
+.filters-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.filters-container>* {
+    width: 150px;
+    height: 70px;
+}
+
+label {
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 180px;
+}

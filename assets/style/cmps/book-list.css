@@ -1,0 +1,21 @@
+.book-list {
+    display: grid;
+    padding: 0;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #e1e0e0;
+    padding-inline: 2em;
+    margin-bottom: 1em;
+}
+
+@media (min-width:600px) {
+    .book-list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+    }
+}
